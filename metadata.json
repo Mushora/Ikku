@@ -1,0 +1,6 @@
+{
+  "name": "Ikku Bhai's Restaurant",
+  "description": "Authentic flavours, fine dining, traditional biryanis, and royal hospitality crafted with HTML5, CSS3, and Vanilla JavaScript ES6.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

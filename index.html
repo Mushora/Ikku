@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Ikku Bhai's Restaurant | Authentic Flavours & Fine Dining</title>
+  <meta name="description" content="Experience the rich culinary heritage of Ikku Bhai's Restaurant. Serving artisanal biryanis, slow-cooked curries, grilled delicacies, and warm hospitality.">
+  <meta name="keywords" content="Ikku Bhai's Restaurant, fine dining, biryani, authentic curry, grilled kebabs, restaurant, gourmet food">
+  <meta name="author" content="Ikku Bhai's Restaurant">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:title" content="Ikku Bhai's Restaurant | Authentic Flavours & Fine Dining">
+  <meta property="og:description" content="A symphony of traditional spices and contemporary culinary excellence. Reserve your table or explore our curated menu.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- JSON-LD Structured Data for Local Restaurant SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ikku Bhai's Restaurant",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    "priceRange": "$$",
+    "servesCuisine": "Indian, Mughlai, Continental & Tandoor",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 Royal Heritage Boulevard, Gourmet Row",
+      "addressLocality": "Metropolitan City",
+      "postalCode": "110001",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91 98765 43210",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:30",
+        "closes": "23:30"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Maps Platform Bootstrap Loader -->
+  <script>
+    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+      key: "AIzaSyDiIOVyRQjTqid_H-O2DNfQ52UavdC0IbY",
+      v: "weekly"
+    });
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container container">
+      <a href="#hero" class="brand-logo" aria-label="Ikku Bhai's Restaurant Home">
+        <span class="logo-emblem">IB</span>
+        <div class="logo-text">
+          <span class="logo-title">Ikku Bhai's</span>
+          <span class="logo-subtitle">Restaurant & Lounge</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#special" class="nav-link">Signature Dish</a></li>
+          <li class="nav-item"><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#partners" class="nav-link">Partners</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <a href="#contact" class="btn btn-primary btn-sm">Book a Table</a>
+        </div>
+      </nav>
+
+      <!-- Header Action CTA & Hamburger -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary header-cta">Book a Table</a>
+        
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION
+         ========================================================= -->
+    <section class="hero-section" id="hero" aria-label="Hero Introduction">
+      <div class="hero-media-wrapper">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=80" alt="Exquisite culinary dining spread at Ikku Bhai's" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge animate-fade-in">
+            <span class="gold-star">★</span> Culinary Heritage & Hospitality <span class="gold-star">★</span>
+          </div>
+          <h1 class="hero-title animate-slide-up">
+            Ikku Bhai's <span class="highlight-serif">Restaurant</span>
+          </h1>
+          <p class="hero-tagline animate-slide-up delay-1">
+            Where slow-cooked heritage meets unforgettable modern warmth.
+          </p>
+          <p class="hero-description animate-slide-up delay-2">
+            Immerse yourself in authentic Mughlai marinades, hand-pounded royal spices, fragrant dum biryanis, and warm artisanal breads crafted with unmatched passion.
+          </p>
+
+          <div class="hero-cta-group animate-slide-up delay-3">
+            <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+            <a href="#contact" class="btn btn-outline btn-lg">Reserve a Table</a>
+          </div>
+
+          <!-- Quick Service Badges -->
+          <div class="hero-perks animate-slide-up delay-4">
+            <div class="perk-item">
+              <svg class="perk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              <span>100% Halal & Fresh</span>
+            </div>
+            <div class="perk-item">
+              <svg class="perk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Dine-in & Takeaway</span>
+            </div>
+            <div class="perk-item">
+              <svg class="perk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Family-Friendly Dining</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About Section">
+        <span class="mouse-icon"><span class="wheel"></span></span>
+        <span class="scroll-text">Scroll to Discover</span>
+      </a>
+    </section>
+
+    <!-- =========================================================
+         3. RESTAURANT INTRO / ABOUT SECTION
+         ========================================================= -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Visual Cluster -->
+          <div class="about-media-col" data-animate="fade-right">
+            <div class="about-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80" alt="Interior ambiance of Ikku Bhai's Restaurant" class="about-main-img">
+              <div class="about-floating-card">
+                <span class="floating-icon">👨‍🍳</span>
+                <div class="floating-text">
+                  <strong>Master Recipes</strong>
+                  <span>Handcrafted Daily</span>
+                </div>
+              </div>
+              <div class="about-accent-frame"></div>
+            </div>
+          </div>
+
+          <!-- Right Content Column -->
+          <div class="about-text-col" data-animate="fade-left">
+            <div class="section-tag">Our Heritage & Craft</div>
+            <h2 class="section-title">A Story Born of Deep Passion and Authentic Spices</h2>
+            <p class="section-lead">
+              At Ikku Bhai's Restaurant, cooking is not merely an occupation—it is a cherished cultural tradition passed through generations of spice masters.
+            </p>
+            <p class="body-text">
+              Every dish that graces your table begins at sunrise. We source whole aromatic seeds, unadulterated cold-pressed oils, and farm-fresh cuts. Our master chefs gently roast spices over charcoal and patiently simmer gravies in heavy brass vessels, preserving natural aromas and deep, layered flavors that linger on your palate.
+            </p>
+
+            <div class="about-features-grid">
+              <div class="about-feature-item">
+                <div class="feat-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                <div>
+                  <h4>Fresh Ingredients</h4>
+                  <p>Whole ground spices and daily morning farm-sourced vegetables and meats.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="feat-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07L19.07 4.93"/></svg>
+                </div>
+                <div>
+                  <h4>Authentic Flavours</h4>
+                  <p>Secret heirloom masala blends and classical slow-dum charcoal techniques.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="feat-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <h4>Hygienic Kitchen</h4>
+                  <p>Immaculate preparation standards following international food safety protocols.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="feat-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div>
+                  <h4>Warm Hospitality</h4>
+                  <p>Welcoming you with courteous care that treats every guest like royalty.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="#menu" class="btn btn-secondary">Discover the Menu</a>
+              <div class="signature-stamp">
+                <span class="sig-script">Ikku Bhai</span>
+                <span class="sig-caption">Founder & Executive Patron</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. FEATURED MENU (WITH VANILLA JS FILTERING)
+         ========================================================= -->
+    <section class="menu-section section-padding bg-paper" id="menu">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">Crafted With Perfection</div>
+          <h2 class="section-title">Explore Our Curated Menu</h2>
+          <div class="divider-ornament"><span>❖</span></div>
+          <p class="section-lead max-w-700">
+            Every dish is cooked fresh to order. Filter by category to discover traditional specialties, grilled tandoori delights, and signature biryanis.
+          </p>
+        </div>
+
+        <!-- Menu Filter Buttons -->
+        <div class="menu-filter-container" data-animate="fade-up">
+          <div class="filter-pills" role="tablist" aria-label="Menu Categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Dishes</button>
+            <button class="filter-btn" data-filter="starters" role="tab" aria-selected="false">Starters & Kebabs</button>
+            <button class="filter-btn" data-filter="biryani" role="tab" aria-selected="false">Rice & Biryani</button>
+            <button class="filter-btn" data-filter="curries" role="tab" aria-selected="false">Main Course</button>
+            <button class="filter-btn" data-filter="vegetarian" role="tab" aria-selected="false">Vegetarian</button>
+            <button class="filter-btn" data-filter="breads" role="tab" aria-selected="false">Breads & Tandoor</button>
+            <button class="filter-btn" data-filter="desserts" role="tab" aria-selected="false">Desserts & Drinks</button>
+          </div>
+        </div>
+
+        <!-- Menu Food Cards Grid -->
+        <div class="menu-grid" id="menuGrid">
+          
+          <!-- Item 1: Biryani -->
+          <article class="menu-card" data-category="biryani" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Ikku Bhai's Signature Dum Biryani" loading="lazy">
+              <span class="badge badge-gold">Chef's Signature</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Ikku Bhai’s Royal Mutton Dum Biryani</h3>
+                <span class="dish-price">$18.50</span>
+              </div>
+              <p class="dish-desc">Aged long-grain basmati rice sealed with tender succulent lamb, saffron threads, and artisanal spices cooked in a clay deg.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Non-Veg</span>
+                <span class="category-pill">Rice & Biryani</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Starter -->
+          <article class="menu-card" data-category="starters" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=600&q=80" alt="Bhatti Murgh Tikka" loading="lazy">
+              <span class="badge badge-popular">Popular</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Smoky Bhatti Murgh Tikka</h3>
+                <span class="dish-price">$13.90</span>
+              </div>
+              <p class="dish-desc">Boneless chicken thighs marinated in Kashmiri chili, hung curd, and roasted mustard oil, char-grilled over natural coals.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Non-Veg</span>
+                <span class="category-pill">Starters</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Curry -->
+          <article class="menu-card" data-category="curries" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80" alt="Old Delhi Butter Chicken" loading="lazy">
+              <span class="badge badge-popular">Must Try</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Dilli 6 Velvet Butter Chicken</h3>
+                <span class="dish-price">$16.50</span>
+              </div>
+              <p class="dish-desc">Tandoor-roasted chicken simmered in a silky tomato gravy enriched with farm butter, honey, and sun-dried fenugreek leaves.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Main Course</span>
+                <span class="category-pill">Main Course</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Vegetarian -->
+          <article class="menu-card" data-category="vegetarian" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Paneer Tikka Angara" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Paneer Tikka Angara</h3>
+                <span class="dish-price">$13.00</span>
+              </div>
+              <p class="dish-desc">Artisanal cottage cheese cubes rubbed with pickled spices and bell peppers, seared in tandoor with mint reduction.</p>
+              <div class="card-footer">
+                <span class="diet-tag veg">Vegetarian</span>
+                <span class="category-pill">Vegetarian</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 5: Biryani -->
+          <article class="menu-card" data-category="biryani" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=600&q=80" alt="Lucknowi Chicken Biryani" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Nawabi Chicken Dum Biryani</h3>
+                <span class="dish-price">$15.00</span>
+              </div>
+              <p class="dish-desc">Fragrant basmati layered with tender chicken steeped in yakhni broth, garnished with golden fried onions and rose water.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Non-Veg</span>
+                <span class="category-pill">Rice & Biryani</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 6: Vegetarian Curry -->
+          <article class="menu-card" data-category="vegetarian" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=600&q=80" alt="Dal Makhani" loading="lazy">
+              <span class="badge badge-popular">Classic</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Slow-Simmered Dal Bukhara</h3>
+                <span class="dish-price">$12.50</span>
+              </div>
+              <p class="dish-desc">Black lentils slow cooked for 24 hours on slow embers, infused with hand-churned white butter and tomato puree.</p>
+              <div class="card-footer">
+                <span class="diet-tag veg">Vegetarian</span>
+                <span class="category-pill">Vegetarian</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 7: Breads -->
+          <article class="menu-card" data-category="breads" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80" alt="Artisanal Garlic Naan" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Garlic & Herb Butter Naan</h3>
+                <span class="dish-price">$4.50</span>
+              </div>
+              <p class="dish-desc">Hand-stretched leavened flatbread slapped onto the inner walls of our clay oven, brushed with roasted garlic butter.</p>
+              <div class="card-footer">
+                <span class="diet-tag veg">Vegetarian</span>
+                <span class="category-pill">Breads</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 8: Starter -->
+          <article class="menu-card" data-category="starters" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80" alt="Galouti Kebab" loading="lazy">
+              <span class="badge badge-gold">Melt In Mouth</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Awadhi Galouti Kebab</h3>
+                <span class="dish-price">$15.50</span>
+              </div>
+              <p class="dish-desc">Fine minced lamb paste infused with raw papaya and 28 royal secret spices, pan-seared and served over mini saffron sheermal.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Non-Veg</span>
+                <span class="category-pill">Starters</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 9: Curries -->
+          <article class="menu-card" data-category="curries" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80" alt="Mutton Rogan Josh" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Kashmiri Mutton Rogan Josh</h3>
+                <span class="dish-price">$19.00</span>
+              </div>
+              <p class="dish-desc">Succulent goat braised in an intensely aromatic gravy seasoned with Kashmiri mawal flower, dry ginger, and fennel essence.</p>
+              <div class="card-footer">
+                <span class="diet-tag non-veg">Non-Veg</span>
+                <span class="category-pill">Main Course</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 10: Desserts -->
+          <article class="menu-card" data-category="desserts" data-animate="zoom-in">
+            <div class="card-img-holder">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Shahi Tukda & Gulab Jamun" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3 class="dish-name">Royal Saffron Shahi Tukda</h3>
+                <span class="dish-price">$8.50</span>
+              </div>
+              <p class="dish-desc">Crisp ghee-fried bread rounds steeped in cardamom sugar syrup, topped with thick condensed rabri and slivered pistachios.</p>
+              <div class="card-footer">
+                <span class="diet-tag veg">Vegetarian</span>
+                <span class="category-pill">Desserts</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-notice text-center">
+          <p class="note-text"><em>* All prices shown are sample pricing in USD for demonstration. Please notify your server of any dietary allergies.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. SIGNATURE DISH / SPECIAL OFFER SECTION
+         ========================================================= -->
+    <section class="special-dish-section section-padding" id="special">
+      <div class="container">
+        <div class="special-dish-wrapper" data-animate="scale-up">
+          <div class="special-dish-grid">
+            
+            <div class="special-img-box">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80" alt="Ikku Bhai's Signature Tandoori Raan" class="special-img">
+              <div class="special-badge-circle">
+                <span class="circle-sm">Chef's</span>
+                <strong class="circle-lg">RAAN</strong>
+                <span class="circle-price">$38 Special</span>
+              </div>
+            </div>
+
+            <div class="special-text-box">
+              <div class="section-tag tag-light">Chef's Masterpiece</div>
+              <h2 class="special-title">The Legendary Slow-Roasted Tandoori Raan</h2>
+              <p class="special-desc">
+                An heirloom recipe perfected by Ikku Bhai himself. A whole leg of tender lamb is twice-marinated over 36 hours in malt vinegar, dark spices, roasted cumin, and raw garlic. It is subsequently slow-steamed and then char-crusted in the roaring tandoor to achieve unparalleled tenderness that pulls effortlessly apart.
+              </p>
+              
+              <ul class="special-spec-list">
+                <li><span class="bullet-gold">✓</span> Marinated for 36 hours in 18 royal aromatics</li>
+                <li><span class="bullet-gold">✓</span> Served with saffron sheermal, mint relish, and spiced gravy</li>
+                <li><span class="bullet-gold">✓</span> Ideal for celebration gatherings & 2–3 guests sharing</li>
+              </ul>
+
+              <div class="special-action-row">
+                <a href="#contact" class="btn btn-primary btn-lg">Pre-Order Today</a>
+                <span class="limited-tag">Limited to 15 servings per evening</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. WHY CHOOSE US
+         ========================================================= -->
+    <section class="why-us-section section-padding" id="why-us">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">The Ikku Bhai Difference</div>
+          <h2 class="section-title">Why Dine With Us?</h2>
+          <div class="divider-ornament"><span>❖</span></div>
+          <p class="section-lead max-w-700">
+            We hold dining to a higher standard. From our spotless open kitchens to our attentive table hospitality, every detail is engineered for culinary delight.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          
+          <div class="why-card" data-animate="fade-up" data-delay="100">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="why-title">100% Fresh Daily Sourcing</h3>
+            <p class="why-desc">No pre-packaged bases or artificial colorants. Every vegetable, cut of meat, and spice blend is verified and prepped daily.</p>
+          </div>
+
+          <div class="why-card" data-animate="fade-up" data-delay="200">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="why-title">Traditional Slow-Dum Method</h3>
+            <p class="why-desc">We respect time. We cook our signature curries and biryanis in thick clay pots sealed with dough over low charcoal heat.</p>
+          </div>
+
+          <div class="why-card" data-animate="fade-up" data-delay="300">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3 class="why-title">Passionate Culinary Masters</h3>
+            <p class="why-desc">Our culinary kitchen team possesses over two decades of expertise refining traditional Mughlai, tandoor, and Awadhi cooking.</p>
+          </div>
+
+          <div class="why-card" data-animate="fade-up" data-delay="400">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3 class="why-title">Warm, Attentive Hospitality</h3>
+            <p class="why-desc">You are our esteemed family. From personalized table recommendations to comfortable family seating, your comfort is prime.</p>
+          </div>
+
+          <div class="why-card" data-animate="fade-up" data-delay="500">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3 class="why-title">Immaculate Hygiene</h3>
+            <p class="why-desc">Strict cleanliness protocols, sanitization stations, and open view cooking zones that showcase our kitchen's impeccable tidiness.</p>
+          </div>
+
+          <div class="why-card" data-animate="fade-up" data-delay="600">
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="why-title">Celebrations & Banquets</h3>
+            <p class="why-desc">Spacious private dining enclosures ideal for family reunions, anniversaries, corporate luncheons, and celebratory feasts.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. FOOD GALLERY (WITH LIGHTBOX MODAL)
+         ========================================================= -->
+    <section class="gallery-section section-padding bg-paper" id="gallery">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">Visual Treats</div>
+          <h2 class="section-title">The Culinary Gallery</h2>
+          <div class="divider-ornament"><span>❖</span></div>
+          <p class="section-lead max-w-700">
+            A glimpse into the vibrant colors, smoky tandoors, and tasteful atmosphere at Ikku Bhai’s Restaurant. Click any photo to view in full resolution.
+          </p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=85" data-caption="Char-grilled Seekh Kebabs with Mint Chutney">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Char-grilled Seekh Kebabs" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Char-Grilled Kebabs</span>
+              <span class="gallery-sub">Charcoal Special</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" data-caption="Warm Amber Ambiance & Elegant Dining Hall">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurant Ambiance" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Restaurant Ambiance</span>
+              <span class="gallery-sub">Evening Seating</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=85" data-caption="Signature Fragrant Dum Biryani in Copper Deg">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Royal Dum Biryani" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Royal Dum Biryani</span>
+              <span class="gallery-sub">Heirloom Recipe</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=85" data-caption="Chef plating artisanal gravies in our open kitchen">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Chef Plating Gravy" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Kitchen Artistry</span>
+              <span class="gallery-sub">Master Craft</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1200&q=85" data-caption="Velvety Butter Chicken Garnished with Cream and Ginger">
+            <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80" alt="Butter Chicken" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Velvet Butter Gravy</span>
+              <span class="gallery-sub">Classic Favorite</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-animate="zoom-in" data-src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=85" data-caption="Freshly baked tandoori breads & char-grilled appetizers">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Tandoori Delicacies" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+              <span class="gallery-title">Tandoori Delights</span>
+              <span class="gallery-sub">Crisp & Smoky</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL COMPONENT -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" id="lightboxImg" class="lightbox-img">
+        </div>
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+    </div>
+
+    <!-- =========================================================
+         8. CUSTOMER REVIEWS (CAROUSEL WITH 4.6 - 5.0 RATINGS)
+         ========================================================= -->
+    <section class="reviews-section section-padding" id="reviews">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">Verified Guest Experiences</div>
+          <h2 class="section-title">Words From Our Cherished Guests</h2>
+          <div class="divider-ornament"><span>❖</span></div>
+          <p class="section-lead max-w-700">
+            <em>(Sample verified guest testimonials. Ratings curated between 4.6 and 5.0 out of 5 stars)</em>
+          </p>
+        </div>
+
+        <div class="reviews-carousel-wrapper" data-animate="fade-up">
+          <button class="carousel-control prev" id="revPrevBtn" aria-label="Previous Testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+
+          <div class="reviews-track-container">
+            <div class="reviews-track" id="reviewsTrack">
+              
+              <!-- Review 1 -->
+              <div class="review-card">
+                <div class="card-quote-mark">“</div>
+                <div class="review-stars" aria-label="Rating: 5.0 out of 5 stars">
+                  ★★★★★ <span class="rating-num">5.0 / 5.0</span>
+                </div>
+                <p class="review-text">
+                  “The Mutton Dum Biryani at Ikku Bhai’s is genuinely extraordinary. The rice grains are separate, soaked in subtle aromatics, and the meat melts without even needing a knife. Truly royal standard.”
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Amina R." class="reviewer-avatar">
+                  <div>
+                    <strong class="reviewer-name">Amina Rahman</strong>
+                    <span class="reviewer-role">Food Blogger & Local Guide</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 2 -->
+              <div class="review-card">
+                <div class="card-quote-mark">“</div>
+                <div class="review-stars" aria-label="Rating: 4.8 out of 5 stars">
+                  ★★★★★ <span class="rating-num">4.8 / 5.0</span>
+                </div>
+                <p class="review-text">
+                  “We hosted my parents' 30th wedding anniversary here. From reserving the corner lounge to the attentive service of the waitstaff, everything was seamless. The Galouti Kebabs disappeared in seconds!”
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rohit S." class="reviewer-avatar">
+                  <div>
+                    <strong class="reviewer-name">Rohit Sharma</strong>
+                    <span class="reviewer-role">Family Dining Guest</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 3 -->
+              <div class="review-card">
+                <div class="card-quote-mark">“</div>
+                <div class="review-stars" aria-label="Rating: 4.9 out of 5 stars">
+                  ★★★★★ <span class="rating-num">4.9 / 5.0</span>
+                </div>
+                <p class="review-text">
+                  “As an expat craving genuine Old Delhi style butter chicken and crisp garlic naans, Ikku Bhai's is unmatched. Authentic flavors, zero artificial food coloring, and warm welcoming greetings.”
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="David M." class="reviewer-avatar">
+                  <div>
+                    <strong class="reviewer-name">David Miller</strong>
+                    <span class="reviewer-role">Culinary Tourist</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 4 -->
+              <div class="review-card">
+                <div class="card-quote-mark">“</div>
+                <div class="review-stars" aria-label="Rating: 4.7 out of 5 stars">
+                  ★★★★★ <span class="rating-num">4.7 / 5.0</span>
+                </div>
+                <p class="review-text">
+                  “The Dal Bukhara is rich, creamy, and gently smoky. Paired with their tandoori rotis, it’s comfort food elevated to fine dining perfection. We will be regular visitors for sure.”
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Priya K." class="reviewer-avatar">
+                  <div>
+                    <strong class="reviewer-name">Priya Kulkarni</strong>
+                    <span class="reviewer-role">Local Resident</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 5 -->
+              <div class="review-card">
+                <div class="card-quote-mark">“</div>
+                <div class="review-stars" aria-label="Rating: 5.0 out of 5 stars">
+                  ★★★★★ <span class="rating-num">5.0 / 5.0</span>
+                </div>
+                <p class="review-text">
+                  “The slow-cooked Tandoori Raan was the star of our corporate dinner. The spices are layered with unbelievable precision. Hats off to Ikku Bhai and his dedicated kitchen team.”
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&q=80" alt="Farhan A." class="reviewer-avatar">
+                  <div>
+                    <strong class="reviewer-name">Farhan Akhtar</strong>
+                    <span class="reviewer-role">Corporate Client</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="carousel-control next" id="revNextBtn" aria-label="Next Testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Testimonial Navigation"></div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. RESTAURANT EXPERTISE / EXPERIENCE
+         ========================================================= -->
+    <section class="expertise-section section-padding bg-dark">
+      <div class="container">
+        <div class="expertise-grid">
+          
+          <div class="expertise-content" data-animate="fade-right">
+            <div class="section-tag tag-gold">Culinary Mastery</div>
+            <h2 class="section-title text-light">Precision, Heritage, and the Art of Slow Fire</h2>
+            <p class="section-lead text-dim">
+              We never compromise on the delicate science of royal Indian seasoning.
+            </p>
+            <p class="body-text text-dim">
+              Traditional cooking demands relentless patience. Our biryani handis are sealed with freshly kneaded wheat dough to trap every wisp of aroma, ensuring cardamom, mace, and rose petals permeate the meat before release.
+            </p>
+
+            <div class="expertise-metrics">
+              <div class="metric-item">
+                <span class="metric-num">36h</span>
+                <span class="metric-label">Slow Marinade Cycle</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-num">28+</span>
+                <span class="metric-label">Heirloom Spices</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-num">100%</span>
+                <span class="metric-label">Pure Desi Ghee</span>
+              </div>
+            </div>
+
+            <div class="expertise-quote">
+              <blockquote>“True culinary excellence is not found in shortcuts; it lives in the embers that burn patiently through the night.”</blockquote>
+              <cite>— Chef Ikku Bhai</cite>
+            </div>
+          </div>
+
+          <div class="expertise-media" data-animate="fade-left">
+            <div class="image-stack">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Chef preparing spice blends" class="stack-img-1">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Dining ambiance" class="stack-img-2">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         10. RESTAURANT STATISTICS (ANIMATED COUNTERS)
+         ========================================================= -->
+    <section class="stats-section" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="stat-card" data-animate="fade-up" data-delay="100">
+            <div class="stat-number-wrapper">
+              <span class="counter" data-target="15">0</span><span class="stat-plus">+</span>
+            </div>
+            <p class="stat-label">Signature Master Creations</p>
+            <p class="stat-sub">Curated by our head chef</p>
+          </div>
+
+          <div class="stat-card" data-animate="fade-up" data-delay="200">
+            <div class="stat-number-wrapper">
+              <span class="counter" data-target="1800">0</span><span class="stat-plus">+</span>
+            </div>
+            <p class="stat-label">Delighted Monthly Guests</p>
+            <p class="stat-sub">Dining across our tables</p>
+          </div>
+
+          <div class="stat-card" data-animate="fade-up" data-delay="300">
+            <div class="stat-number-wrapper">
+              <span class="counter" data-target="4.9" data-decimal="true">0.0</span><span class="stat-plus">★</span>
+            </div>
+            <p class="stat-label">Average Food Review Score</p>
+            <p class="stat-sub">Over 500+ guest ratings</p>
+          </div>
+
+          <div class="stat-card" data-animate="fade-up" data-delay="400">
+            <div class="stat-number-wrapper">
+              <span class="counter" data-target="100">0</span><span class="stat-plus">%</span>
+            </div>
+            <p class="stat-label">Fresh & Natural Ingredients</p>
+            <p class="stat-sub">Zero artificial additives</p>
+          </div>
+
+        </div>
+        <p class="stats-disclaimer text-center">
+          <em>* Demonstrative operational statistics illustrating service volume and guest satisfaction benchmarks.</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         11. FAQ SECTION (ACCESSIBLE ACCORDION)
+         ========================================================= -->
+    <section class="faq-section section-padding bg-paper" id="faq">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">Got Questions?</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <div class="divider-ornament"><span>❖</span></div>
+          <p class="section-lead max-w-700">
+            Everything you need to know regarding table reservations, takeaway orders, dietary preferences, and hosting private banquets.
+          </p>
+        </div>
+
+        <div class="faq-accordion-container" id="faqAccordion" data-animate="fade-up">
+          
+          <!-- FAQ 1 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+              <span class="faq-question-text">What are the opening and dining hours of Ikku Bhai’s Restaurant?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <div class="accordion-content">
+                We are open 7 days a week. Our lunch service runs from <strong>11:30 AM to 3:30 PM</strong>, and dinner service runs from <strong>6:30 PM to 11:30 PM</strong>. The kitchen takes its last order at 10:45 PM.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+              <span class="faq-question-text">Do I need a prior reservation, or can I walk in?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <div class="accordion-content">
+                Walk-in guests are always welcome! However, for weekend dinners (Friday through Sunday) and large groups of 4 or more, we strongly encourage reserving online or calling in advance to avoid waiting times.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+              <span class="faq-question-text">Are all the meat preparations certified Halal?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <div class="accordion-content">
+                Yes, absolutely. All our meats (chicken, mutton, and lamb) are 100% Halal certified, carefully inspected, and sourced fresh each morning from accredited partners.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+              <span class="faq-question-text">Do you offer vegetarian and vegan dining options?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-2" role="region" aria-labelledby="faq-btn-4" hidden>
+              <div class="accordion-content">
+                Yes! We maintain a dedicated vegetarian kitchen section with separate cookware. We have an extensive range of cottage cheese tikkas, slow-cooked lentils, stuffed breads, and vegetable biryanis.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+              <span class="faq-question-text">Do you provide home delivery and takeaway packaging?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <div class="accordion-content">
+                Yes. We offer spill-proof, eco-friendly heat-insulating containers for both direct takeaway collection and doorstep delivery within an 8 km radius of the restaurant.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+              <span class="faq-question-text">Can we host private family parties or corporate gatherings?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6" hidden>
+              <div class="accordion-content">
+                We have an intimate private dining lounge accommodating up to 45 guests, with custom buffet menus and dedicated serving staff. Inquire through our contact form for packages.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-7" id="faq-btn-7">
+              <span class="faq-question-text">Is parking available at the restaurant premises?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-7" role="region" aria-labelledby="faq-btn-7" hidden>
+              <div class="accordion-content">
+                Complimentary valet parking is available for all dining guests during lunch and dinner operational hours.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-8" id="faq-btn-8">
+              <span class="faq-question-text">How does pre-ordering the Signature Tandoori Raan work?</span>
+              <span class="accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel" id="faq-ans-8" role="region" aria-labelledby="faq-btn-8" hidden>
+              <div class="accordion-content">
+                Because our whole marinated raan undergoes a 36-hour marination and slow roast, we recommend requesting it at least 24 hours in advance through our table reservation notes or phone call.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         12. CALL TO ACTION BANNER
+         ========================================================= -->
+    <section class="cta-banner-section" aria-label="Call to Action">
+      <div class="cta-banner-media">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80" alt="Ikku Bhai's Dining Area" class="cta-bg-img">
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="container cta-container" data-animate="scale-up">
+        <div class="cta-content text-center">
+          <span class="cta-sub">Join Us This Evening</span>
+          <h2 class="cta-heading">Good Food. Great Moments. Unforgettable Memories.</h2>
+          <p class="cta-text max-w-700">
+            Whether it is an intimate date, a vibrant family feast, or a quiet solo treat, an extraordinary dining experience awaits you at Ikku Bhai’s.
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary btn-lg">Book Your Table</a>
+            <a href="#menu" class="btn btn-outline btn-lg">View Full Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         12B. OUR LEAD PARTNERS & THEIR SERVICES
+         ========================================================= -->
+    <section class="partners-section section-padding" id="partners" aria-label="Our Lead Partners and Their Services">
+      <div class="container">
+        <div class="section-header text-center" data-animate="fade-up">
+          <div class="section-tag">Strategic Collaborations</div>
+          <h2 class="section-title">Our Lead Partners &amp; Their Services</h2>
+          <p class="section-lead max-w-700">
+            We are proud to collaborate with industry-leading partners who support our growth, technology, delivery, and customer experience.
+          </p>
+        </div>
+
+        <!-- Category Filter & View Controls -->
+        <div class="partners-controls-bar" data-animate="fade-up">
+          <div class="partners-filter-group" role="tablist" aria-label="Filter partners by service">
+            <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">
+              All Partners <span class="tab-count">8</span>
+            </button>
+            <button class="filter-tab" data-filter="delivery" role="tab" aria-selected="false">
+              Delivery <span class="tab-count">2</span>
+            </button>
+            <button class="filter-tab" data-filter="billing" role="tab" aria-selected="false">
+              Billing <span class="tab-count">2</span>
+            </button>
+            <button class="filter-tab" data-filter="refreshment" role="tab" aria-selected="false">
+              Refreshment <span class="tab-count">3</span>
+            </button>
+            <button class="filter-tab" data-filter="ice-cream" role="tab" aria-selected="false">
+              Ice Cream <span class="tab-count">1</span>
+            </button>
+          </div>
+
+          <div class="partners-view-toggle">
+            <button class="view-btn active" id="partnersGridViewBtn" aria-label="Switch to Grid View" title="Grid View">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              <span>Cards</span>
+            </button>
+            <button class="view-btn" id="partnersTableViewBtn" aria-label="Switch to Table View" title="Table View">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              <span>Directory</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 1. PARTNERS GRID VIEW -->
+        <div class="partners-grid" id="partnersGrid" data-animate="fade-up">
+          
+          <!-- Partner 1: Zomato (Delivery Partner) -->
+          <div class="partner-card partner-zomato" data-category="delivery" style="--card-glow: rgba(226, 55, 68, 0.35);">
+            <div class="partner-logo-box partner-zomato-box" aria-label="Zomato Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#E23744"/>
+                <circle cx="52" cy="27" r="13" fill="#FFFFFF" fill-opacity="0.22"/>
+                <!-- Spoon & Fork Icon -->
+                <path d="M49 20C47.9 20 47 20.9 47 22V26.5C47 27.3 47.7 28 48.5 28H49.5V34H51.5V28H52.5C53.3 28 54 27.3 54 26.5V22C54 20.9 53.1 20 52 20H49ZM48.5 22H49.5V25H48.5V22ZM51.5 22H52.5V25H51.5V22ZM55 20C54.4 20 54 20.5 54 21.1V26C54 27.1 54.9 28 56 28V34H57.5V20H55Z" fill="#FFFFFF"/>
+                <text x="74" y="35" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-style="italic" font-size="24" fill="#FFFFFF" letter-spacing="-0.8">zomato</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Zomato</h3>
+                <span class="partner-service-badge delivery">Delivery Partner</span>
+              </div>
+              <p class="partner-description">
+                Seamless express food delivery, real-time live courier tracking, and wide citywide reach for our freshly prepared Mughlai menu.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Express Dispatch</span>
+                <span class="cap-tag">Live GPS Tracking</span>
+                <span class="cap-tag">Online Orders</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Integrated Partner</span>
+                <span class="partner-metric">★ 4.8 Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 2: Swiggy (Delivery Partner) -->
+          <div class="partner-card partner-swiggy" data-category="delivery" style="--card-glow: rgba(252, 128, 25, 0.35);">
+            <div class="partner-logo-box partner-swiggy-box" aria-label="Swiggy Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#FC8019"/>
+                <!-- Swiggy Location Pin & S-Mark -->
+                <g transform="translate(43, 14)">
+                  <path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 21.3 11.2 24.7 11.7 24.8C12 24.9 12.2 25 12.5 25C12.8 25 13 24.9 13.3 24.8C13.8 24.7 25 21.3 25 12.5C25 5.6 19.4 0 12.5 0Z" fill="#FFFFFF" fill-opacity="0.22"/>
+                  <path d="M15 7C14.4 6.7 13.6 6.4 12.7 6.4C9.7 6.4 7.9 8.3 7.9 10.5C7.9 14 13 13.1 13 15.4C13 16.3 12.2 16.9 11.1 16.9C9.9 16.9 8.9 16.3 8.1 15.6L6.7 17.6C7.8 18.6 9.4 19.2 11.1 19.2C14.4 19.2 16.3 17.3 16.3 15.1C16.3 11.4 11.2 12.3 11.2 10.1C11.2 9.4 11.9 8.8 12.9 8.8C13.8 8.8 14.7 9.2 15.2 9.7L16.6 7.8C16.2 7.4 15.6 7.2 15 7Z" fill="#FFFFFF"/>
+                </g>
+                <text x="77" y="35" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" letter-spacing="-0.8">swiggy</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Swiggy</h3>
+                <span class="partner-service-badge delivery">Delivery Partner</span>
+              </div>
+              <p class="partner-description">
+                Ultra-fast doorstep logistics, dedicated hot-bag courier transit, and instant culinary distribution across all prime sectors.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Thermal Bag Transit</span>
+                <span class="cap-tag">Instant Delivery</span>
+                <span class="cap-tag">Swiggy One Support</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Integrated Partner</span>
+                <span class="partner-metric">30 Min Avg</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 3: Petpooja (Billing Partner) -->
+          <div class="partner-card partner-petpooja" data-category="billing" style="--card-glow: rgba(255, 91, 34, 0.3);">
+            <div class="partner-logo-box partner-petpooja-box" aria-label="Petpooja Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#0E1624"/>
+                <rect x="0.5" y="0.5" width="199" height="53" rx="9.5" stroke="#FF5B22" stroke-opacity="0.3"/>
+                <!-- Chef Roundel -->
+                <circle cx="52" cy="27" r="14" fill="#FF5B22"/>
+                <path d="M45 28C45 31.8 48.1 35 52 35C55.9 35 59 28 59 28H45Z" fill="#FFFFFF"/>
+                <path d="M48 21V25M52 20V25M56 21V25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+                <text x="74" y="29" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="#FFFFFF" letter-spacing="-0.4">Petpooja</text>
+                <text x="75" y="40" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="8" fill="#FF8A50" letter-spacing="1">POS &amp; BILLING</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Petpooja</h3>
+                <span class="partner-service-badge billing">Billing Partner</span>
+              </div>
+              <p class="partner-description">
+                Powering our centralized high-speed restaurant POS, table order routing, digital kitchen order tickets (KOT), and inventory management.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Cloud POS</span>
+                <span class="cap-tag">Kitchen KOT Automation</span>
+                <span class="cap-tag">Menu Sync</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Integrated Partner</span>
+                <span class="partner-metric">99.9% Uptime</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 4: Tally (Billing Partner) -->
+          <div class="partner-card partner-tally" data-category="billing" style="--card-glow: rgba(0, 71, 186, 0.35);">
+            <div class="partner-logo-box partner-tally-box" aria-label="Tally Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#061833"/>
+                <rect x="0.5" y="0.5" width="199" height="53" rx="9.5" stroke="#0047BA" stroke-opacity="0.35"/>
+                <!-- Tally Emblem -->
+                <g transform="translate(38, 14)">
+                  <rect x="0" y="0" width="26" height="26" rx="5" fill="#0047BA"/>
+                  <polygon points="6,20 13,6 20,6 13,20" fill="#FFC72C"/>
+                </g>
+                <text x="74" y="29" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="#FFFFFF" letter-spacing="-0.5">Tally</text>
+                <text x="124" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="11" fill="#FFC72C">Prime</text>
+                <text x="75" y="40" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="7.5" fill="#93C5FD" letter-spacing="0.8">ACCOUNTING &amp; GST</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Tally</h3>
+                <span class="partner-service-badge billing">Billing Partner</span>
+              </div>
+              <p class="partner-description">
+                Driving robust accounting governance, automated GST compliance, vendor invoicing, and transparent financial reporting.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">GST Compliant</span>
+                <span class="cap-tag">Automated Invoicing</span>
+                <span class="cap-tag">Ledger Sync</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Integrated Partner</span>
+                <span class="partner-metric">Enterprise Grade</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 5: Coca-Cola (Refreshment Partner) -->
+          <div class="partner-card partner-coke" data-category="refreshment" style="--card-glow: rgba(228, 28, 36, 0.35);">
+            <div class="partner-logo-box partner-coke-box" aria-label="Coca-Cola Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#E41C24"/>
+                <!-- Dynamic White Wave Contour -->
+                <path d="M15 40 C 60 40, 80 30, 100 30 C 120 30, 140 40, 185 40 C 145 37, 120 28, 100 28 C 80 28, 55 37, 15 40 Z" fill="#FFFFFF" fill-opacity="0.95"/>
+                <!-- Perfectly Centered Script Wordmark & Tagline -->
+                <text x="100" y="27" text-anchor="middle" font-family="'Brush Script MT', 'Playfair Display', cursive, serif" font-weight="900" font-style="italic" font-size="28" fill="#FFFFFF" letter-spacing="0.5">Coca-Cola</text>
+                <text x="100" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="7.5" fill="#FFFFFF" fill-opacity="0.9" letter-spacing="2.5">REFRESHMENT</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Coca-Cola</h3>
+                <span class="partner-service-badge refreshment">Refreshment Partner</span>
+              </div>
+              <p class="partner-description">
+                The world’s iconic beverage companion. Serving chilled glass-bottle classics, crisp sodas, and authentic pairings for royal tandoori dishes.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Classic Chilled Glass</span>
+                <span class="cap-tag">Zero Sugar</span>
+                <span class="cap-tag">Signature Pairings</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Official Partner</span>
+                <span class="partner-metric">Chilled At 4°C</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 6: Pepsi (Refreshment Partner) -->
+          <div class="partner-card partner-pepsi" data-category="refreshment" style="--card-glow: rgba(0, 75, 147, 0.35);">
+            <div class="partner-logo-box partner-pepsi-box" aria-label="Pepsi Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#001F47"/>
+                <rect x="0.5" y="0.5" width="199" height="53" rx="9.5" stroke="#004B93" stroke-opacity="0.4"/>
+                <!-- Iconic Pepsi Globe Roundel -->
+                <g transform="translate(42, 13)">
+                  <circle cx="14" cy="14" r="14" fill="#004B93"/>
+                  <!-- Upper Red Wave -->
+                  <path d="M0 14C0 6.27 6.27 0 14 0C21.73 0 28 6.27 28 14C23.5 14 18.5 17 14 17C8.5 17 4.5 14 0 14Z" fill="#E32934"/>
+                  <!-- White Dynamic Swirl Wave -->
+                  <path d="M0 14C4.5 14 8.5 17 14 17C18.5 17 23.5 14 28 14C28 14.5 27.9 15 27.8 15.5C23.5 17.5 18 19.5 14 19.5C9.5 19.5 4.5 17.5 0.2 15.5C0.1 15 0 14.5 0 14Z" fill="#FFFFFF"/>
+                  <circle cx="14" cy="14" r="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+                </g>
+                <text x="80" y="35" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="25" fill="#FFFFFF" letter-spacing="-1">pepsi</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Pepsi</h3>
+                <span class="partner-service-badge refreshment">Refreshment Partner</span>
+              </div>
+              <p class="partner-description">
+                Bold, refreshing carbonated beverages, refreshing fountains, and thirst-quenching sodas crafted to balance deep Awadhi spices.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Fountain Carbonation</span>
+                <span class="cap-tag">Pepsi Black</span>
+                <span class="cap-tag">Cold Serves</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Official Partner</span>
+                <span class="partner-metric">Crisp &amp; Fizzy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 7: Toyo (Refreshment Partner) -->
+          <div class="partner-card partner-toyo" data-category="refreshment" style="--card-glow: rgba(229, 9, 20, 0.3);">
+            <div class="partner-logo-box partner-toyo-box" aria-label="Toyo Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#131418"/>
+                <rect x="0.5" y="0.5" width="199" height="53" rx="9.5" stroke="#E50914" stroke-opacity="0.3"/>
+                <!-- Toyo Sun & Drop Emblem -->
+                <circle cx="52" cy="27" r="13" fill="#E50914"/>
+                <path d="M52 19C52 19 46 27 46 30C46 33.3 48.7 36 52 36C55.3 36 58 33.3 58 30C58 27 52 19 52 19Z" fill="#FFFFFF"/>
+                <circle cx="52" cy="31" r="3" fill="#E50914"/>
+                <text x="76" y="29" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="1.5">TOYO</text>
+                <text x="77" y="40" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="8" fill="#FCA5A5" letter-spacing="1.2">REFRESHMENTS</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Toyo</h3>
+                <span class="partner-service-badge refreshment">Refreshment Partner</span>
+              </div>
+              <p class="partner-description">
+                Artisanal Asian beverages, premium brewed iced teas, fruit coolers, and botanical infusions crafted for refined palate rejuvenation.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">Brewed Iced Teas</span>
+                <span class="cap-tag">Botanical Coolers</span>
+                <span class="cap-tag">Exotic Fruit Infusions</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Official Partner</span>
+                <span class="partner-metric">Natural Brew</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 8: Camerry Ice Cream (Ice Cream Partner) -->
+          <div class="partner-card partner-camerry" data-category="ice-cream" style="--card-glow: rgba(255, 128, 171, 0.3);">
+            <div class="partner-logo-box partner-camerry-box" aria-label="Camerry Ice Cream Brand Logo">
+              <svg viewBox="0 0 200 54" fill="none" xmlns="http://www.w3.org/2000/svg" class="partner-svg-logo">
+                <rect width="200" height="54" rx="10" fill="#240D1D"/>
+                <rect x="0.5" y="0.5" width="199" height="53" rx="9.5" stroke="#FF80AB" stroke-opacity="0.3"/>
+                <!-- Artisanal Ice Cream Scoops & Waffle Cone -->
+                <g transform="translate(38, 11)">
+                  <circle cx="16" cy="11" r="8" fill="#FF80AB"/>
+                  <circle cx="11" cy="16" r="6" fill="#F8BBD0"/>
+                  <circle cx="21" cy="16" r="6" fill="#FFE082"/>
+                  <polygon points="9,22 23,22 16,32" fill="#D7CCC8"/>
+                  <path d="M16 3C16 3 17.5 6 16 7C14.5 8 15.5 10 16 10" stroke="#D81B60" stroke-width="1.5" stroke-linecap="round"/>
+                </g>
+                <text x="74" y="28" font-family="'Playfair Display', serif" font-weight="700" font-style="italic" font-size="20" fill="#FFFFFF" letter-spacing="-0.2">Camerry</text>
+                <text x="75" y="40" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="7.5" fill="#FF80AB" letter-spacing="1">ICE CREAM &bull; ARTISANAL</text>
+              </svg>
+            </div>
+            <div class="partner-content">
+              <div class="partner-header">
+                <h3 class="partner-name">Camerry Ice Cream</h3>
+                <span class="partner-service-badge ice-cream">Ice Cream Partner</span>
+              </div>
+              <p class="partner-description">
+                Rich, slow-churned artisanal ice creams, gourmet kulfi fusions, royal falooda garnishes, and sweet conclusions to luxury feasts.
+              </p>
+              <div class="partner-capabilities">
+                <span class="cap-tag">100% Pure Cream</span>
+                <span class="cap-tag">Gourmet Scoops</span>
+                <span class="cap-tag">Dessert Pairings</span>
+              </div>
+              <div class="partner-footer">
+                <span class="partner-status"><span class="status-dot online"></span> Official Partner</span>
+                <span class="partner-metric">Rich &amp; Decadent</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 2. PARTNERS SERVICE DIRECTORY TABLE VIEW (Responsive Matrix) -->
+        <div class="partners-table-wrapper" id="partnersTableWrapper" style="display: none;" data-animate="fade-up">
+          <div class="table-responsive">
+            <table class="partners-matrix-table" aria-label="Partner and Service Matrix">
+              <thead>
+                <tr>
+                  <th scope="col">Partner Brand</th>
+                  <th scope="col">Brand Name</th>
+                  <th scope="col">Service Category</th>
+                  <th scope="col">Operational Role &amp; Contribution</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody id="partnersTableBody">
+                <tr data-category="delivery">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #E23744; color: #fff; font-weight: 800; font-style: italic;">zomato</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Zomato</strong></td>
+                  <td><span class="partner-service-badge delivery">Delivery Partner</span></td>
+                  <td>Doorstep express food dispatch &amp; live GPS courier tracking</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="delivery">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #FC8019; color: #fff; font-weight: 800;">swiggy</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Swiggy</strong></td>
+                  <td><span class="partner-service-badge delivery">Delivery Partner</span></td>
+                  <td>On-demand express food delivery &amp; insulated hot-pack transit</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="billing">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #141B26; color: #FF5B22; font-weight: 800;">Petpooja</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Petpooja</strong></td>
+                  <td><span class="partner-service-badge billing">Billing Partner</span></td>
+                  <td>High-speed cloud POS billing, table ordering &amp; kitchen KOT routing</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="billing">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #071B33; color: #FFC72C; font-weight: 800;">Tally</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Tally</strong></td>
+                  <td><span class="partner-service-badge billing">Billing Partner</span></td>
+                  <td>Automated GST invoicing, ledger reconciliation &amp; audit reporting</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="refreshment">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #E41C24; color: #fff; font-family: cursive; font-weight: bold;">Coca-Cola</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Coca-Cola</strong></td>
+                  <td><span class="partner-service-badge refreshment">Refreshment Partner</span></td>
+                  <td>Iconic chilled sodas, classic glass bottles &amp; dining thirst quenchers</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="refreshment">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #002244; color: #fff; font-weight: 900;">pepsi</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Pepsi</strong></td>
+                  <td><span class="partner-service-badge refreshment">Refreshment Partner</span></td>
+                  <td>Carbonated beverages, fountain dispensers &amp; crisp meal companions</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="refreshment">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #18181B; color: #E50914; font-weight: 900; letter-spacing: 1px;">TOYO</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Toyo</strong></td>
+                  <td><span class="partner-service-badge refreshment">Refreshment Partner</span></td>
+                  <td>Artisanal Asian beverages, brewed iced teas &amp; herbal refreshments</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+                <tr data-category="ice-cream">
+                  <td class="partner-table-logo">
+                    <span class="logo-mini-pill" style="background: #2D1124; color: #FF80AB; font-family: serif; font-weight: 700;">Camerry</span>
+                  </td>
+                  <td class="partner-table-name"><strong>Camerry Ice Cream</strong></td>
+                  <td><span class="partner-service-badge ice-cream">Ice Cream Partner</span></td>
+                  <td>Slow-churned gourmet scoops, royal falooda &amp; artisanal desserts</td>
+                  <td><span class="partner-status"><span class="status-dot online"></span> Active</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         13. CONTACT & TABLE RESERVATION SECTION
+         ========================================================= -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Information Column -->
+          <div class="contact-info-col" data-animate="fade-right">
+            <div class="section-tag">Find & Reach Us</div>
+            <h2 class="section-title">Visit Ikku Bhai’s Restaurant</h2>
+            <p class="section-lead">
+              Have questions, need catering services, or wish to plan an intimate celebration? Reach out to our dedicated concierge.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <strong>Address</strong>
+                  <p>124 Royal Heritage Boulevard, Gourmet Promenade, Central District (Sample Placeholder)</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <strong>Direct Reservation Line</strong>
+                  <p><a href="tel:+919876543210">+91 98765 43210</a> / <a href="tel:+919876543211">+91 98765 43211</a></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <strong>Email Concierge</strong>
+                  <p><a href="mailto:reservations@ikkubhai-restaurant.demo">reservations@ikkubhai-restaurant.demo</a></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <strong>Lunch & Dinner Service</strong>
+                  <p>Mon - Sun: 11:30 AM – 3:30 PM | 6:30 PM – 11:30 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-links-wrapper">
+              <span class="social-label">Follow our kitchen adventures:</span>
+              <div class="social-icons">
+                <a href="#contact" class="social-btn" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="TripAdvisor">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Form Column -->
+          <div class="contact-form-col" data-animate="fade-left">
+            <div class="form-wrapper">
+              <h3 class="form-title">Reserve a Table or Send an Inquiry</h3>
+              <p class="form-subtitle">Fill in the details below. Instant client-side verification is enabled.</p>
+              
+              <form id="reservationForm" class="site-form" novalidate>
+                <div class="form-group">
+                  <label for="fullName">Full Name <span class="required">*</span></label>
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. Tariq Mansoor" required>
+                  <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactEmail">Email Address <span class="required">*</span></label>
+                    <input type="email" id="contactEmail" name="contactEmail" placeholder="tariq@example.com" required>
+                    <span class="error-msg" id="emailError"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="contactPhone">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="contactPhone" name="contactPhone" placeholder="+91 98765 00000" required>
+                    <span class="error-msg" id="phoneError"></span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="guestCount">Party Size</label>
+                    <select id="guestCount" name="guestCount">
+                      <option value="2">2 Guests (Couple)</option>
+                      <option value="4" selected>3 - 4 Guests (Small Group)</option>
+                      <option value="6">5 - 8 Guests (Family)</option>
+                      <option value="12">9+ Guests (Party/Gathering)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="preferredDate">Date & Time Slot</label>
+                    <input type="datetime-local" id="preferredDate" name="preferredDate">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage">Special Requests / Dietary Notes</label>
+                  <textarea id="userMessage" name="userMessage" rows="3" placeholder="Tell us about special seating, spice levels, or anniversary arrangements..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                  <span class="btn-text">Confirm Table Request</span>
+                  <span class="btn-spinner" aria-hidden="true"></span>
+                </button>
+
+                <div class="form-status-alert" id="formStatus" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       14. SOPHISTICATED FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        
+        <!-- Brand Summary -->
+        <div class="footer-col brand-col">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="logo-emblem">IB</span>
+            <div class="logo-text">
+              <span class="logo-title text-light">Ikku Bhai's</span>
+              <span class="logo-subtitle text-gold">Restaurant & Lounge</span>
+            </div>
+          </a>
+          <p class="footer-about-text">
+            Celebrating royal Awadhi and Mughlai culinary traditions with fresh ingredients, slow-simmered aromas, and generous family hospitality.
+          </p>
+          <div class="footer-halal-badge">
+            <span>✓ 100% Halal Verified</span>
+            <span>✓ Freshly Ground Spices</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Exploration</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Our Heritage</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#special">Signature Tandoori Raan</a></li>
+            <li><a href="#why-us">The Ikku Difference</a></li>
+            <li><a href="#gallery">Food Gallery</a></li>
+            <li><a href="#partners">Our Lead Partners</a></li>
+          </ul>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Dining Hours</h4>
+          <div class="footer-hours-block">
+            <p><strong>Monday – Thursday</strong><br>11:30 AM – 3:30 PM<br>6:30 PM – 11:00 PM</p>
+            <p><strong>Friday – Sunday</strong><br>11:30 AM – 3:30 PM<br>6:30 PM – 11:45 PM</p>
+            <p class="service-notice">Takeaway & home orders available during all service windows.</p>
+          </div>
+        </div>
+
+        <!-- Contact & Legal Placeholders -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Locate Us</h4>
+          <p class="footer-contact-item">124 Royal Heritage Boulevard, Gourmet Promenade, Central District</p>
+          <p class="footer-contact-item">Reservations: <strong>+91 98765 43210</strong></p>
+          <p class="footer-contact-item">Inquiries: <strong>reservations@ikkubhai.demo</strong></p>
+        </div>
+
+      </div>
+
+      <!-- =========================================================
+           INTERACTIVE GOOGLE MAP (BOTTOM FOOTER)
+           ========================================================= -->
+      <div class="footer-map-section" id="footerMapSection" data-animate="fade-up">
+        <div class="footer-map-header">
+          <div class="footer-map-title-wrap">
+            <span class="footer-map-badge">Live Location</span>
+            <h3 class="footer-map-title">Ikku Bhai’s Restaurant on Google Maps</h3>
+            <p class="footer-map-subtitle">
+              124 Royal Heritage Boulevard, Gourmet Promenade, Central District &bull; Complimentary Valet Parking
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-map-wrapper">
+          <iframe
+            id="footerGoogleMapIframe"
+            class="footer-map-iframe"
+            title="Google Map showing Ikku Bhai's Restaurant location"
+            src="https://maps.google.com/maps?q=28.6315,77.2167+(Ikku+Bhai's+Restaurant)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="100%"
+            height="380"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <div class="footer-map-attribution">Google Maps</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-flex">
+          <p class="copyright-text">
+            &copy; <span id="currentYear"></span> Ikku Bhai's Restaurant. All rights reserved. Crafted for excellence.
+          </p>
+          <ul class="footer-legal-links">
+            <li><a href="#contact">Privacy Policy</a></li>
+            <li><a href="#contact">Terms of Service</a></li>
+            <li><a href="#contact">Kitchen Hygiene Standards</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Vanilla JavaScript ES6 Script -->
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
